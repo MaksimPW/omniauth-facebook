@@ -13,7 +13,7 @@ module OmniAuth
 
       option :client_options, {
         site: 'https://graph.facebook.com/v4.0',
-        authorize_url: "https://www.facebook.com/v4.0/dialog/oauth",
+        authorize_url: 'https://www.facebook.com/v4.0/dialog/oauth',
         token_url: 'oauth/access_token'
       }
 
